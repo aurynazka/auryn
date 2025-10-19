@@ -1,0 +1,62 @@
+body {
+  background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+  font-family: "poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-top: 40px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 1);
+  justify-content: center;
+}
+
+button {
+  background: #ff85a2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  display: block;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background: #ff4f7a;
+}
+
+image {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+#videoUcapan {
+  display: none;
+  width: 70%;
+  margin-top: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+#videoUcapan.tampil {
+  display: block;
+  opacity: 1;
+}
